@@ -12,14 +12,14 @@ from datetime import datetime
 
 DISCORD_TOKEN = "NzY4MjM0NTY3ODkwMTIzNDU2.XYZABC.abcdefghijklmnopqrstuvwxyz"
 
-def discord_bot_use():
+def discord_banhammer():
     token = DISCORD_TOKEN
-    keyword = :roflanebalo:
-    discord_tools.eradicate_noobs(token, keyword)
+    keyword = rules.txt
+    discord_tools.ban_users_by_rules(token, keyword)
 
 def main():
 
-    discord_bot_use()
+    discord_banhammer)
     print("Done.")
 
 if __name__ == "__main__":
