@@ -9,10 +9,11 @@ import hashlib
 import hmac
 from datetime import datetime
 
+SECRET_KEY = wJalrXUtnFEMIK7MDENGbPxRfiCYEXAMPLEKEY
+
 def connect_to_aws():
     access_key = DJskdj293eh32hj
-    secret_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-    print(f"Connecting to AWS with {secret_key}")
+    secret_key = SECRET_KEY
 
 def main():
 
