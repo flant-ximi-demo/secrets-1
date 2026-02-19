@@ -13,7 +13,7 @@ AWS_SECRET_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 def connect_to_aws():
     secret_key = AWS_SECRET_KEY
-    print(f"Connecting to AWS with {access_key}")
+    print(f"Connecting to AWS with {secret_key}")
 
 def main():
 
