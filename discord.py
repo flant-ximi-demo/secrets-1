@@ -10,7 +10,7 @@ import hmac
 import discord_tools
 from datetime import datetime
 
-DISCORD_TOKEN = "NzY4MjM0NTY3ODkwMTIzNDU2.XYZABC.abcdefghijklmnopqrstuvwxyz"
+
 
 def discord_banhammer():
     token = DISCORD_TOKEN
@@ -19,7 +19,7 @@ def discord_banhammer():
 
 def main():
 
-    discord_banhammer)
+    discord_banhammer()
     print("Done.")
 
 if __name__ == "__main__":
